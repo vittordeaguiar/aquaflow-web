@@ -31,7 +31,7 @@ const router = createRouter({
             path: '/clients',
             name: 'clients',
             component: ClientsView,
-            meta: { requiresAuth: true }
+            // meta: { requiresAuth: true }
         },
         { path: '/:catchAll(.*)', redirect: '/home' }
     ],
